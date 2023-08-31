@@ -1,0 +1,85 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    background: aliceblue;
+    align-items: center;
+    height: 74px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 70%;
+    z-index: 1;
+}
+.home , .about, .shope, .contact, .cart{
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.navLogo{
+    font-size: 30px;
+    color: #00BCD4;
+    font-style: oblique;
+}
+.navLogo:hover{
+color: rgb(192, 230, 22);
+transition: .5s;
+}
+.home:hover , .about:hover, .shope:hover, .contact:hover, .cart:hover{
+    color:rgb(19, 248, 134);
+    transition: .5s;
+}
+.togleBtn{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .togleBtn{
+        display: block;
+        top: 25px;
+        right: 30px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+.navTogl{
+    display: block;
+    list-style: none;
+    width: 100%;
+    background-color: #9C27B0;
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    top: 75px;
+}
+.nav-list{
+    display: none;
+}
+    
+.navLogo{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navLogo:hover{
+    color: rgba(171, 22, 230, 0.527);
+    transition: .5s;
+    }
+    .home:hover , .about:hover, .shope:hover, .contact:hover, .cart:hover{
+        color:rgb(206, 248, 19);
+        transition: .5s;
+    }
+
+
+}

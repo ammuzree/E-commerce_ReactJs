@@ -1,0 +1,47 @@
+.abt-img {
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: unset;
+  /* background-color: rgb(164, 88, 194); */
+  background-image: linear-gradient(
+    to right,
+    #b440e1,
+    rgb(230, 79, 192),
+    rgb(231, 122, 186)
+  );
+}
+#urlAb {
+  color: #34e4ed;
+}
+.txt-cont {
+  color: beige;
+  text-align: justify;
+  margin: 20px 33px;
+  font-size: 16px;
+}
+@media screen and (max-width: 900px) {
+  .txt-cont {
+    color: beige;
+    text-align: justify;
+    margin: 20px 33px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .txt-cont {
+    color: beige;
+    text-align: justify;
+    margin: 5px 10px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .txt-cont {
+    color: beige;
+    text-align: justify;
+    margin: 5px 10px;
+    font-size: 10px;
+  }
+}

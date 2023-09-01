@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-body {
+  background: linear-gradient(
+    to right,
+    rgb(4, 4, 112),
+    rgb(11, 57, 207),
+    rgb(223, 32, 197),
+    rgb(141, 2, 118)
+  );
+  height: 20vh;
+}
+.text-ftr {
+  color: beige;
+}
+.icon-list {
+  color: beige;
+  list-style: none;
+}
+.li-ftr {
+  padding: 10px 13px;
+  cursor: pointer;
+}
+.li-ftr:hover {
+  color: rgb(157, 196, 17);
+  transition: 0.5s;
+  box-shadow: 4px 5px 4px gray;
+  border-radius: 20px;
+}
+#a-foot {
+  color: inherit;
+  text-decoration: none;
+}
+#a-foot:hove {
+  color: inherit;
+  transition: 0.5s;
+}

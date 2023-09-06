@@ -24,9 +24,7 @@ const App = () => {
           <Route path="admin" element={<Admin />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <div className="footer">
-          <Footer />
-        </div>
+        <Footer />
       </BrowserRouter>
     </>
   );

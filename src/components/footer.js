@@ -12,10 +12,12 @@ export default function Footer() {
     <>
       <div className="footer-body d-flex justify-content-around align-items-center">
         <div className="text-ftr">
-          <h6>© 2023 AAHA Solutions . All Rights Reserved</h6>
+          <h3 className="footer-txt">
+            © 2023 AAHA Solutions . All Rights Reserved
+          </h3>
         </div>
         <div className="icons-ftr">
-          <ul className="icon-list d-flex justify-content-around align-items-center">
+          <ul className="icon-list d-flex justify-content-around align-items-center m-0">
             <li className="li-ftr">
               <a href={urlF} id="a-foot">
                 <BsFacebook />

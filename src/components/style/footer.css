@@ -11,8 +11,10 @@
     rgb(223, 32, 197),
     rgb(141, 2, 118)
   );
-  height: 20vh;
+  height: 16vh;
+  font-size: 30px;
 }
+
 .text-ftr {
   color: beige;
 }
@@ -37,4 +39,28 @@
 #a-foot:hove {
   color: inherit;
   transition: 0.5s;
+}
+@media screen and (max-width: 886px) {
+  .footer-txt {
+    font-size: 20px;
+  }
+  .footer-body {
+    padding: 15px;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 444px) {
+  .footer-txt {
+    font-size: 12px;
+  }
+  .icons-ftr {
+    font-size: 15px;
+  }
+
+  /* .footer-body {
+    padding: 15px;
+    flex-direction: column;
+    height: fit-content;
+  } */
 }

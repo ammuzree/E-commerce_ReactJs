@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Cart from "./components/Cart";
 import Admin from "./components/Admin";
 import Footer from "./components/footer";
+import AdmWel from "./components/AdmWel";
 import Error from "./components/Error";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
           <Route path="cart" element={<Cart />} />
           <Route path="admin" element={<Admin />} />
+          <Route path="dash" element={<AdmWel />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

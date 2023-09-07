@@ -65,8 +65,18 @@
 .contFrm-btn {
   margin-left: 24px;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 860px) {
   .img-contecting {
     display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cont-input {
+    padding: 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    transition: all 0.2s;
+    outline: none;
+    width: 110px;
   }
 }

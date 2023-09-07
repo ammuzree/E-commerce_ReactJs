@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.shp-bdy {
+  background-color: aliceblue;
+}
+/* .shp-inp {
+} */
+.shp-imgCont {
+  background-color: rgb(229 233 186);
+  border-radius: 10px;
+}
+.shp-head {
+  background-color: cadetblue;
+  height: 9vh;
+  color: aliceblue;
+}
+#Shpimg-box {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 7px 7px;
+}
+.cart-btn {
+  margin-bottom: 8px;
+}
+.img-col {
+  margin: 8px;
+  border: 6px solid white;
+  border-radius: 8px;
+}
+.prName,
+.prPrice {
+  color: #009688;
+}
+.prNm,
+.prVal {
+  color: #9c27b0;
+}
+.shpHd {
+  color: #009688;
+}

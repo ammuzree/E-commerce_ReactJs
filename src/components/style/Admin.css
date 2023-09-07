@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.adm-body {
+  background-color: #d3b5f5;
+  height: 75vh;
+}
+.adm-card {
+  background-color: #d3b5f5;
+  width: 350px;
+  border: 1px solid #eb69d9;
+  border-radius: 23px;
+  box-shadow: inset 10px 10px 8px #e384e3, 10px 10px 8px #e384e3;
+}
+.lgn-btn {
+  color: azure;
+  background-color: #2ba1e2;
+}
+.lgn-inp {
+  outline: none;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  width: 222px;
+  height: 40px;
+  background: inherit;
+  padding: 7px;
+}
+.lgn-grp {
+  position: relative;
+}
+.lgn-label {
+  position: absolute;
+  top: 24%;
+  left: 59px;
+  font-size: small;
+  color: #f7f5f0;
+}
+.lgn-grp input:focus,
+.lgn-grp input:valid {
+  border: 1px solid #4aadbb;
+}
+.lgn-grp input:focus + .lgn-label,
+.lgn-grp input:valid + .lgn-label {
+  color: #4aadbb;
+  top: -25%;
+  left: 70px;
+  background-color: #d3b5f5;
+  font-size: 12px;
+}
+.lgn-txt {
+  margin-top: 20px;
+}
+.lgn-para {
+  color: aliceblue;
+  margin-bottom: 0;
+}
+.lgn-head {
+  color: antiquewhite;
+}
+.lgnErrmsg {
+  font-size: 13px;
+  color: #f44336;
+  margin-left: -98px;
+}
+
+@media screen and (max-width: 378px) {
+  .adm-card {
+    width: 200px;
+  }
+  .lgn-inp {
+    width: 177px;
+  }
+  .lgnErrmsg {
+    margin-left: -50px;
+  }
+}

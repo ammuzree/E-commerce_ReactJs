@@ -14,13 +14,13 @@ export default function About() {
           //   style={{ backgroundImage: `url(${bgImg})` }}
         >
           <div className="about-text">
-            <h3 className="about-head">About us</h3>
+            <h3 className="about-head text-center py-3">About us</h3>
             <div className="txt-cont">
               <p className="about-para">
-                Starling bags NI is a manufacturer and wholesale supplier of
-                reusable bags to all sorts of businesses. We based in Belfast,
-                Northern Ireland partnering with manufacturing and supply chain
-                company in India. <br />
+                Abc bags NI is a manufacturer and wholesale supplier of reusable
+                bags to all sorts of businesses. We based in Belfast, Northern
+                Ireland partnering with manufacturing and supply chain company
+                in India. <br />
                 <br />
                 Our wide range of collections include cotton, canvas and jute
                 materials to choose from. We can make promotional bags in any

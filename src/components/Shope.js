@@ -17,13 +17,6 @@ export default function Shope() {
       </div>
       <div className="shp-bdy justify-content-center  align-items-center text-center">
         <div className="shp-srch ">
-          {/* <div className="shp-inp my-4 p-5">
-            <label htmlFor="srch-shp">
-              Category
-              <br />ss
-              <input type="text" id="srch-shp" />
-            </label>
-          </div> */}
           <div className="shpImg-bdy ">
             <div className="shp-imgCont container p-4">
               <h2 className="shpHd">All Categories</h2>

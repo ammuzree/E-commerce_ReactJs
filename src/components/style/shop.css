@@ -8,10 +8,10 @@
 }
 /* .shp-inp {
 } */
-.shp-imgCont {
-  background-color: rgb(229 233 186);
+/* .shp-imgCont {
+  background-color: #9e9e9e;
   border-radius: 10px;
-}
+} */
 .shp-head {
   background-color: cadetblue;
   height: 9vh;
@@ -32,12 +32,12 @@
 }
 .prName,
 .prPrice {
-  color: #009688;
+  color: #3f51b5;
 }
 .prNm,
 .prVal {
-  color: #9c27b0;
+  color: #4caf50;
 }
 .shpHd {
-  color: #009688;
+  color: #9c27b0;
 }

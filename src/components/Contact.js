@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./style/contact.css";
 import contactImg from "./images/contact 2.jpg";
 
 export default function Contact() {
+  const navi = useNavigate();
   const [inpVal, setInputVal] = useState({});
   const [erMsg, setErmsg] = useState({
     erName: "",
@@ -59,6 +61,7 @@ export default function Contact() {
       console.log("form data", inpVal);
       setInputVal("");
       alert("Thnak you for contacting us!");
+      navi("/");
     }
   };
 

@@ -11,9 +11,9 @@
   align-items: center;
   color: aliceblue;
 }
-/* .contact-body {
-  background: #f0f8ff;
-} */
+.contact-body {
+  height: 100%;
+}
 .cont-container {
   border: 1px solid aliceblue;
   background: white;

@@ -60,3 +60,6 @@
   transition: all 0.5s;
   transform: translateX(10px);
 }
+.shp-bdy {
+  height: 100%;
+}

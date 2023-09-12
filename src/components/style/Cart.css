@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cart-bdy {
+  background-image: linear-gradient(
+    120deg,
+    rgb(0, 238, 255),
+    rgb(87, 198, 241),
+    rgb(142, 81, 240),
+    rgb(211, 101, 233),
+    rgb(96, 82, 221),
+    rgb(158, 112, 231),
+    rgb(226, 88, 253),
+    rgb(111, 229, 250)
+  );
+  height: 75vh;
+  border-radius: 50px;
+}
+.cart-Hd {
+  color: aliceblue;
+}
+.itm-cart {
+  color: antiquewhite;
+}
+.cart-head {
+  background-color: cadetblue;
+  height: 10vh;
+}

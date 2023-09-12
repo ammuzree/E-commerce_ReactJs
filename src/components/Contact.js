@@ -57,6 +57,8 @@ export default function Contact() {
       e.preventDefault();
     } else {
       console.log("form data", inpVal);
+      setInputVal("");
+      alert("Thnak you for contacting us!");
     }
   };
 
@@ -69,7 +71,12 @@ export default function Contact() {
         <div className="cont-div">
           <div className="cont-container my-5 container p-5  d-flex justify-content-around align-item-center">
             <div className="form-content  d-flex align-items-center justify-content-center ">
-              <form className="cont-form" onSubmit={handelSubmit} noValidate>
+              <form
+                className="cont-form"
+                method="post"
+                onSubmit={handelSubmit}
+                noValidate
+              >
                 <div className="input-grp">
                   <input
                     type="text"

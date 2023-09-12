@@ -68,10 +68,7 @@
 .cont-div {
   height: 75vh;
 }
-.cont-div:hover {
-  transition: all 0.5s;
-  transform: translateY(50px);
-}
+
 @media screen and (max-width: 860px) {
   .img-contecting {
     display: none;

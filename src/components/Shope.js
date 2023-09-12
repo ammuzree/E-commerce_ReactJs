@@ -21,7 +21,7 @@ export default function Shope() {
             <div className="shp-imgCont container p-4">
               <h2 className="shpHd py-2">All Categories</h2>
             </div>
-            <div className="shopee container">
+            <div className="shopee">
               <div className="row shp-prod">
                 {Products.map((Prdct) => (
                   <Produ data={Prdct} />

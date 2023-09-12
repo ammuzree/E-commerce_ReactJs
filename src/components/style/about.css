@@ -6,9 +6,9 @@
   /* background-color: rgb(164, 88, 194); */
   background-image: linear-gradient(
     to right,
-    #ca92d3,
+    #92d1d3,
     #f2b49d,
-    rgb(218 166 227)
+    rgb(227, 200, 166)
   );
 }
 #urlAb {
@@ -17,7 +17,7 @@
   padding: 0px 6px;
 }
 .txt-cont {
-  color: #607d8b;
+  color: white;
   text-align: justify;
   padding: 5px 20px;
   font-size: 25px;
@@ -29,6 +29,20 @@
 }
 .about-head {
   color: #673ab7;
+  position: relative;
+}
+.about-head:before {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  height: 4px;
+  width: 0;
+  background: #97e7ec;
+  border-radius: 50%;
+  transition: width 0.3s ease;
+}
+.about-head:hover:before {
+  width: 110px;
 }
 @media screen and (max-width: 762px) {
   .about-img {

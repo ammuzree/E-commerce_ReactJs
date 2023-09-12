@@ -19,7 +19,7 @@ export default function Shope() {
         <div className="shp-srch ">
           <div className="shpImg-bdy ">
             <div className="shp-imgCont container p-4">
-              <h2 className="shpHd">All Categories</h2>
+              <h2 className="shpHd py-2">All Categories</h2>
             </div>
             <div className="row shp-prod">
               {Products.map((Prdct) => (

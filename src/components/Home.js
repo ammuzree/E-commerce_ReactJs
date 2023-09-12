@@ -40,13 +40,13 @@ export default function Home() {
         {/* to make part 2 */}
         <div className="part-2 m-3">
           <div className="types text-center py-4">
-            <h2>Types of Bages</h2>
+            <h2 className="home-head py-1">Types of Bages</h2>
           </div>
           <div className="catogorey container text-center">
             <div className="row">
               <div className="col my-4">
-                <h3>Cotton Bag</h3>
-                <div className="p2-img1">
+                <h3 className="categ-txt">Cotton Bag</h3>
+                <div className="p2-img1" id="img-home">
                   <img
                     id="card-home"
                     src={cotton}
@@ -56,8 +56,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="col my-4">
-                <h3>Tote Bag</h3>
-                <div className="p2-img2">
+                <h3 className="categ-txt">Tote Bag</h3>
+                <div className="p2-img2" id="img-home">
                   <img
                     id="card-home"
                     src={tote}
@@ -69,8 +69,8 @@ export default function Home() {
             </div>
             <div className="row">
               <div className="col my-4 ">
-                <h3>Beach Bag</h3>
-                <div className="p2-img3">
+                <h3 className="categ-txt">Beach Bag</h3>
+                <div className="p2-img3" id="img-home">
                   <img
                     id="card-home"
                     src={beach}
@@ -80,8 +80,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="col my-4">
-                <h3>Jute Bag</h3>
-                <div className="p2-img4">
+                <h3 className="categ-txt">Jute Bag</h3>
+                <div className="p2-img4" id="img-home">
                   <img
                     id="card-home"
                     src={jute}
@@ -93,8 +93,8 @@ export default function Home() {
             </div>
             <div className="row">
               <div className="col my-4">
-                <h3>Travel Bag</h3>
-                <div className="p2-img5">
+                <h3 className="categ-txt">Travel Bag</h3>
+                <div className="p2-img5" id="img-home">
                   <img
                     id="card-home"
                     src={travel}

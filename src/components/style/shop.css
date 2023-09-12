@@ -40,4 +40,23 @@
 }
 .shpHd {
   color: #9c27b0;
+  position: relative;
+}
+.shpHd:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 5px;
+  width: 0;
+  background: pink;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.shpHd:hover:before {
+  width: 200px;
+}
+.img-col:hover {
+  box-shadow: -6px -6px 4px rgb(140, 225, 228);
+  transition: all 0.5s;
+  transform: translateX(10px);
 }
